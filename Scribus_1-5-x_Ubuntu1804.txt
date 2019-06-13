@@ -1,0 +1,3 @@
+sudo apt install subversion g++ cmake extra-cmake-modules libpoppler-dev libpoppler-cpp-dev libpoppler-private-dev qtbase5-dev qttools5-dev libopenscenegraph-dev libgraphicsmagick-dev libcairo2-dev librevenge-dev python-all-dev libhunspell-dev libcups2-dev libboost-python-dev libpodofo-dev
+
+cmake .. -DWANT_GRAPHICSMAGICK=1
