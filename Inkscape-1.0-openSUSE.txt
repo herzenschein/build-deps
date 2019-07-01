@@ -1,0 +1,8 @@
+wget https://www.hboehm.info/gc/gc_source/gc-8.0.4.tar.gz
+tar xf gc-8.0.4.tar.gz
+cd gc6.8
+./configure --disable-shared --enable-static
+sudo make install
+
+sudo zypper install git cmake extra-cmake-modules gcc make pango-devel gsl-devel libsoup-devel double-conversion-devel liblcms2-devel gtkmm3-devel gdk-pixbuf-devel gtk3-devel gdl-devel libpoppler-devel libwpg-devel libwpd-devel libvisio-devel libcdr-devel libjpeg62-devel gtkspell3-devel libboost_python-py3-1_66_0-devel aspell libxslt-devel libpoppler-glib-devel potrace-devel gtest ImageMagick GraphicsMagick-devel gettext-tools
+cmake -DCMAKE_INSTALL_PREFIX:PATH=~/bin/inkscape ..
