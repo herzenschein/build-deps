@@ -7,5 +7,5 @@ cd
 
 git clone https://gitlab.com/inkscape/inkscape.git
 
-sudo zypper install git cmake extra-cmake-modules gcc make pango-devel gsl-devel libsoup-devel double-conversion-devel liblcms2-devel gtkmm3-devel gdk-pixbuf-devel gtk3-devel gdl-devel libpoppler-devel libwpg-devel libwpd-devel libvisio-devel libcdr-devel libjpeg62-devel gtkspell3-devel libboost_python-py3-1_66_0-devel aspell libxslt-devel libpoppler-glib-devel potrace-devel gtest ImageMagick GraphicsMagick-devel gettext-tools
+sudo zypper install git cmake extra-cmake-modules gcc make pango-devel gsl-devel libsoup-devel double-conversion-devel liblcms2-devel gtkmm3-devel gdk-pixbuf-devel gtk3-devel gdl-devel libpoppler-devel libwpg-devel libwpd-devel libvisio-devel libcdr-devel libjpeg62-devel gtkspell3-devel libboost_python-py3-1_66_0-devel aspell aspell-devel libxslt-devel libpoppler-glib-devel potrace-devel gtest gmock ImageMagick GraphicsMagick-devel gettext-tools libGraphicsMagick++-devel libMagick++-devel
 cmake -DCMAKE_INSTALL_PREFIX:PATH=~/bin/inkscape ..
