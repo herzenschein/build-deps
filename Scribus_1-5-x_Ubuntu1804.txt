@@ -1,4 +1,4 @@
-sudo apt install subversion g++ cmake extra-cmake-modules libpoppler-dev libpoppler-cpp-dev libpoppler-private-dev qtbase5-dev qttools5-dev libopenscenegraph-dev libgraphicsmagick-dev libcairo2-dev librevenge-dev python-all-dev libhunspell-dev libcups2-dev libboost-python-dev libpodofo-dev libcdr-dev libfreehand-dev libpagemaker-dev libmspub-dev libqxp-dev libvisio-dev libzmf-dev libgraphicsmagick++1-dev
+sudo apt install subversion g++ cmake extra-cmake-modules libpoppler-dev libpoppler-cpp-dev libpoppler-private-dev qtbase5-dev qttools5-dev libharfbuzz-dev libopenscenegraph-dev libgraphicsmagick-dev libcairo2-dev librevenge-dev python-all-dev libhunspell-dev libcups2-dev libboost-python-dev libpodofo-dev libcdr-dev libfreehand-dev libpagemaker-dev libmspub-dev libqxp-dev libvisio-dev libzmf-dev libgraphicsmagick++1-dev
 
 
 cmake -DCMAKE_INSTALL_PREFIX:PATH=~/bin/scribus -DWANT_DEBUG=1 -DWANT_GRAPHICSMAGICK=1 -DWANT_GUI_LANG="en_GB;de;fr;it;en;pt_BR" ..
