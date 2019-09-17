@@ -1,0 +1,11 @@
+/home/thiago/OpenGothic/lib/MoltenTempest/Engine/graphics/textureatlas.cpp: In member function ‘void Tempest::TextureAtlas::emplace(Tempest::TextureAtlas::Allocation&, const void*, uint32_t, uint32_t, Tempest::Pixmap::Format, uint32_t, uint32_t)’:
+/home/thiago/OpenGothic/lib/MoltenTempest/Engine/graphics/textureatlas.cpp:56:9: error: ‘memcpy’ was not declared in this scope
+         memcpy(data+((y+iy)*dw+dx),src+iy*sw,sw);
+         ^~~~~~
+/home/thiago/OpenGothic/lib/MoltenTempest/Engine/graphics/textureatlas.cpp:56:9: note: suggested alternative: ‘wmemcpy’
+         memcpy(data+((y+iy)*dw+dx),src+iy*sw,sw);
+         ^~~~~~
+         wmemcpy
+make[2]: *** [lib/MoltenTempest/Engine/CMakeFiles/MoltenTempest.dir/graphics/textureatlas.cpp.o] Error 1
+make[1]: *** [lib/MoltenTempest/Engine/CMakeFiles/MoltenTempest.dir/all] Error 2
+make: *** [all] Error 2
